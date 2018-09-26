@@ -30,6 +30,14 @@
 .documents-column {
   float: left;
 }
+.documents-column .teaser {
+  height: 240px;
+  margin: 10px;
+
+}
+.documents-column .teaser .teaser__image {
+  height: 140px;
+}
 
 .region--title {
   -ms-flex-preferred-size: 100%;
