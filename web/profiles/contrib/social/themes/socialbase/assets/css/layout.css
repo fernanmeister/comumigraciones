@@ -33,10 +33,13 @@
 .documents-column .teaser {
   height: 240px;
   margin: 10px;
+  -webkit-box-orient: vertical;
+  flex-direction: column;
 
 }
 .documents-column .teaser .teaser__image {
   height: 140px;
+  flex: 0 0 134px;
 }
 
 .region--title {
