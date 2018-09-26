@@ -107,6 +107,12 @@
             order: 2;
     max-width: 33.33333%;
   }
+  .layout--with-one-columns .region--content {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    max-width: 100%;
+  }
   .layout--with-two-columns .region--content {
     -webkit-box-flex: 0;
         -ms-flex: 0 0 66.66667%;
