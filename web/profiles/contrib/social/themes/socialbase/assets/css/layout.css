@@ -27,6 +27,10 @@
   width: 100%;
 }
 
+.documents-column {
+  float: left;
+}
+
 .region--title {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
