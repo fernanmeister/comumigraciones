@@ -107,6 +107,12 @@ class Page extends PreprocessBase {
       if (empty($variables['page']['sidebar_second']) && empty($variables['page']['sidebar_first'])) {
         $attributes->addClass('layout--with-one-columns');
       }
+      if ($variables['page']['sidebar_first']) {
+        $attributes->addClass('sidebar_first');
+      }
+      if ($variables['page']['sidebar_second']) {
+        $attributes->addClass('sidebar_second');
+      }
 
     }
 
