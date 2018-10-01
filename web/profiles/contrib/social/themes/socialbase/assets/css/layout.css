@@ -42,6 +42,11 @@
   flex: 0 0 134px;
 }
 
+#views-exposed-form-latest-documents-page-latest-documents .form-group {
+  float: left;
+  margin-right: 10px;
+}
+
 .region--title {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
