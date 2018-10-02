@@ -42,7 +42,7 @@
   flex: 0 0 134px;
 }
 
-.layout--with-two-columns .region--content {
+#content .layout--with-two-columns .region--content {
   padding-left: 1em;
   order: 2;
 }
