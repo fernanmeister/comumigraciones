@@ -44,6 +44,7 @@
 
 .path-all-documents .layout--with-two-columns .region--content {
   padding-left: 1em;
+  order: 2;
 }
 
 #views-exposed-form-latest-documents-page-latest-documents .form-group {
