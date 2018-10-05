@@ -76,7 +76,12 @@
 .path-frontpage .ui-dialog-titlebar .ui-dialog-title {
   display: none;
 }
+.path-frontpage .social-user-login-form .card {
+  margin: 0 auto;
+  max-width: 600px;
+}
 .path-frontpage .social-user-login-form .social-auth-header {
+  max-width: 800px;
   margin-top: -35px;
   text-align: center;
   -webkit-box-shadow: 0 0px 0 #e0e0e0, 0 0 0px rgba(0, 0, 0, 0.12), 0 0px 0px rgba(0, 0, 0, 0.24);
