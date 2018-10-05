@@ -98,7 +98,7 @@ function _social_auth_extra_get_buttons($type = 'login') {
       '#attributes' => [
         'class' => ['social-auth-buttons'],
       ],
-      '#title' => new TranslatableMarkup('@action with <b>Social Accounts</b>', [
+      '#title' => new TranslatableMarkup('@action con <b>redes sociales</b>', [
         '@action' => $type === 'register' ? $sign_up : $login,
       ]),
       '#weight' => -100,
