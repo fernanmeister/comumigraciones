@@ -89,7 +89,7 @@
 }
 
 .teaser__image img {border-radius: 50%; padding: 15px;}
-.teaser__image {background: transparent;}
+.teaser__image {background:#fff;}
 
 #block-registerloginmodal p {
   float: left;
