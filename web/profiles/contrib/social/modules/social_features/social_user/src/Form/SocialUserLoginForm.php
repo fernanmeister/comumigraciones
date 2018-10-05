@@ -86,11 +86,6 @@ class SocialUserLoginForm extends UserLoginForm {
 
     $sign_up_link = Link::createFromRoute($this->t('Sign up'), 'user.register', [], $link_options)->toString();
 
-    $form['username_login']['sign-up-link'] = [
-      '#markup' => $this->t("Don't have an account yet? @link", ["@link" => $sign_up_link]),
-      '#weight' => 1000,
-    ];
-
     $form['actions'] = ['#type' => 'actions'];
     $form['actions']['submit'] = ['#type' => 'submit', '#value' => $this->t('Log in')];
 
@@ -245,7 +240,7 @@ class SocialUserLoginForm extends UserLoginForm {
    * {@inheritdoc}
    */
   protected function setGeneralErrorMessage(array &$form, FormStateInterface $form_state) {
-    $form_state->setErrorByName('name_or_mail', $this->t('
+    $form_state->setRedirectrorByName('name_or_mail', $this->t('
         There was an error :( This could happen for one of for the following reasons: <br>
         - Unrecognized username/email and password combination. <br>
         - There has been more than one failed login attempt for this account. It is temporarily blocked. <br>
