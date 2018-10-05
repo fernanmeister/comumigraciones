@@ -88,11 +88,6 @@ function _social_auth_extra_get_buttons($type = 'login') {
     $sign_up = new TranslatableMarkup('Sign up');
     $login = new TranslatableMarkup('Log in');
 
-    $form['social_auth_extra']['social_text'] = [
-      '#type' => 'markup',
-      '#markup' => '<p>Para acceder a la Comunidad también lo puedes hacer de manera automatizada, fácil y rápido si posees una cuenta en las redes sociales que se muestran a continuación:</p>',
-      '#weight' => 1000,
-    ];
 
     $form['social_auth_extra'] = [
       '#type' => 'fieldset',
@@ -106,6 +101,12 @@ function _social_auth_extra_get_buttons($type = 'login') {
       '#attached' => [
         'library' => ['socialbase/form--social-auth-buttons'],
       ],
+    ];
+
+    $form['social_auth_extra']['social_text'] = [
+      '#type' => 'markup',
+      '#markup' => '<p>Para acceder a la Comunidad también lo puedes hacer de manera automatizada, fácil y rápido si posees una cuenta en las redes sociales que se muestran a continuación:</p>',
+      '#weight' => 1000,
     ];
 
     // If there's a help text for social signup/login we display it to the user.
