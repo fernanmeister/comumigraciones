@@ -88,6 +88,11 @@ function _social_auth_extra_get_buttons($type = 'login') {
     $sign_up = new TranslatableMarkup('Sign up');
     $login = new TranslatableMarkup('Log in');
 
+    $form['social_auth_extra']['social_text'] = [
+      '#markup' => '<p>Para acceder a la Comunidad también lo puedes hacer de manera automatizada, fácil y rápido si posees una cuenta en las redes sociales que se muestran a continuación:</p>',
+      '#weight' => 1000,
+    ];
+
     $form['social_auth_extra'] = [
       '#type' => 'fieldset',
       '#attributes' => [
