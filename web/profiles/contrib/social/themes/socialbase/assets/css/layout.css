@@ -58,6 +58,21 @@
   margin-right: 10px; */
 }
 
+#block-registerloginmodal {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px!important;
+  padding-top: 15px!important;
+  -webkit-box-ordinal-group: 11;
+  -ms-flex-order: 10;
+  order: 10;
+  margin-left: auto;
+}
+
+#block-registerloginmodal p {
+  float: left;
+  margin-left: 6px;
+}
 .region--title {
   -ms-flex-preferred-size: 100%;
       flex-basis: 100%;
