@@ -94,11 +94,11 @@ function _social_auth_extra_get_buttons($type = 'login') {
         'class' => ['social-auth-header'],
       ],
       '#weight' => -100,
-    ];    
+    ];
 
     $form['social_auth_header']['social_text'] = [
       '#type' => 'markup',
-      '#markup' => '<p>Para acceder a la Comunidad también lo puedes hacer de manera automatizada, fácil y rápido si posees una cuenta en las redes sociales que se muestran a continuación:</p>',
+      '#markup' => '<img src="http://dev-comunidadtest.pantheonsite.io/sites/default/files/logo-.jpg" alt="Logo" width="380"><br><p>Para acceder a la Comunidad también lo puedes hacer de manera automatizada, fácil y rápido si posees una cuenta en las redes sociales que se muestran a continuación:</p>',
       '#weight' => 1000,
     ];
 
