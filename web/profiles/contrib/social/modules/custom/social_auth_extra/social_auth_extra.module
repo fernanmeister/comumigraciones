@@ -88,6 +88,11 @@ function _social_auth_extra_get_buttons($type = 'login') {
     $sign_up = new TranslatableMarkup('Sign up');
     $login = new TranslatableMarkup('Log in');
 
+    $form['test'] = [
+      '#markup' => '<div id='test'><p>test</p></div>',
+      '#allowed_tags' => ['div',],
+    ];
+
     $form['social_auth_extra'] = [
       '#type' => 'fieldset',
       '#attributes' => [
