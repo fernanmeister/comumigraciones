@@ -21,6 +21,34 @@
 .navbar-default .dropdown-menu > li > a.is-active {
     background-color: #fff;
 }
+.path-frontpage .social-user-login-form .social-auth-header img {max-width: 40%;}
+  .path-frontpage .social-user-login-form .card__block {font-size: 14px; padding-bottom: 5px;}
+  .path-frontpage .social-user-login-form #edit-username-login--5QrKwYIagKA  {box-shadow: 0 0px 0 #fff, 0 0 0px rgba(0, 0, 0, 0), 0 0px 0px rgba(0, 0, 0, 0)!important;}
+  #edit-name-or-mail--tc967RIyjNE--description {display: none;}
+  .ui-dialog-titlebar {width: 200px;
+    position: absolute;
+    z-index: 9999;}
+.documents-column .card {box-shadow: 0 0px 0 #fff, 0 0 0px rgba(0, 0, 0, 0.0), 0 0px 0px rgba(0, 0, 0, 0.0); border-radius: 0px !important;}
+.documents-column .card .teaser__content {padding: 5px;text-align: center;}
+.layout--with-two-columns .region--sidebar-first {padding-right: 30px!important;}
+.view-display-id-page_latest_documents {box-shadow: 0 -1px 0 #e0e0e0,0 0 2px rgba(0,0,0,0.12),0 2px 4px rgba(0,0,0,0.24);
+position: relative;
+background-color: #ffffff;
+display: flex;
+border-radius: 10px !important;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+margin-bottom: 0.75rem;
+background-clip: padding-box;
+-webkit-box-flex: 1;
+flex-grow: 1;}
+.documents-column h4.teaser__title {font-size: 12px; font-weight: 300; text-transform: uppercase;}
+.view-newest-users .teaser__image {
+  background: #fff!important;}
+#views-exposed-form-latest-documents-page-latest-documents #edit-field-document-type-target-id {background-image:none;}
+#views-exposed-form-latest-documents-page-latest-documents .form-control {border: 2px solid #049ec0; background-image: url(/sites/default/files/icobuscar.jpg);background-size: contain; background-repeat: no-repeat; background-position: right;}
+
 .views-field-counter span{padding-right: 10px;}
 .main-container {
   overflow: hidden;
@@ -44,9 +72,12 @@
 
 }
 .documents-column .teaser .teaser__image {
-  height: 140px;
-  flex: 0 0 134px;
+ height: 140px;
+flex: 0 0 148px;
+width: 120px;
+margin: 0 auto;
 }
+.form--post-create .field--name-field-post-visibility { display:none; }
 
 #content .layout--with-two-columns .region--content {
   padding-left: 1em;
@@ -88,13 +119,15 @@
   box-shadow: 0 0px 0 #e0e0e0, 0 0 0px rgba(0, 0, 0, 0.12), 0 0px 0px rgba(0, 0, 0, 0.24);
 }
 
-.teaser__image img {border-radius: 50%; padding: 15px;}
+.view-newest-users  .teaser__image img {border-radius: 50%; padding: 15px;}
 .teaser__image {background:#fff;}
+.block-social-page-title-block {display: none;}
 .view-latest-documents .views-field-counter {float:left;}
+
 .card__title {
     font-size: 0.875rem;
 text-align: center;
-color: #004e70;
+color: #004e70!important;
 font-weight: 500;
 text-transform: uppercase;}
 
@@ -222,12 +255,19 @@ text-transform: uppercase; }
             flex: 0 0 70%;
     max-width: 70%;
   }
+  .layout--with-three-columns  {
+    max-width: 1000px;
+}
+  .layout--with-two-columns  {
+    max-width: 1100px;
+}
+  
   .layout--with-three-columns .region--sidebar-first,
   .layout--with-three-columns .region--sidebar-second {
     -webkit-box-flex: 0;
-        -ms-flex: 0 0 25%;
-            flex: 0 0 25%;
-    max-width: 25%;
+        -ms-flex: 0 0 30%;
+            flex: 0 0 30%;
+    max-width: 30%;
   }
   .region--complementary-bottom {
     display: block;
