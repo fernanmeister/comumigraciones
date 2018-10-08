@@ -18,9 +18,9 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
-.dropdown-toggle .icon-add_box, .dropdown-toggle .icon-group { display: none;}
+.dropdown-toggle .icon-add_box, .dropdown-toggle .icon-group { display: none!important;}
 .navbar-nav__icon {
-    top: 22px;
+    top: 22px!important;
 }
 .navbar-default .dropdown-menu > li > a.is-active {
     background-color: #fff;
