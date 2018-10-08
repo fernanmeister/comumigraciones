@@ -18,6 +18,10 @@
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
 }
+.dropdown-toggle .icon-add_box, .dropdown-toggle .icon-group { display: none;}
+.navbar-nav__icon {
+    top: 22px;
+}
 .navbar-default .dropdown-menu > li > a.is-active {
     background-color: #fff;
 }
