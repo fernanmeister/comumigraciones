@@ -21,7 +21,7 @@
 
 .path-frontpage .social-user-login-form .card .help-block {display:none;} 
 
-#block-docuhome {box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24);}
+#block-docuhome {box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24); border-radius: 10px !important; background-color: #fff;}
 .dropdown-toggle .icon-add_box {display: none!important;}
 .icon-group { display: none!important;}
 .navbar-nav__icon {
