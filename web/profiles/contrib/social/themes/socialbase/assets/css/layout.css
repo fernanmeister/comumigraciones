@@ -21,7 +21,7 @@
 
 .path-frontpage .social-user-login-form .card .help-block {display:none;} 
 
-#block-docuhome {box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24); border-radius: 10px !important; background-color: #fff;}
+#block-docuhome {padding-top:20px; box-shadow: 0 -1px 0 #e0e0e0, 0 0 2px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.24); border-radius: 10px !important; background-color: #fff; }
 .dropdown-toggle .icon-add_box {display: none!important;}
 .icon-group { display: none!important;}
 .navbar-nav__icon {
@@ -52,7 +52,10 @@ margin-bottom: 0.75rem;
 background-clip: padding-box;
 -webkit-box-flex: 1;
 flex-grow: 1;}
-.documents-column h4.teaser__title {font-size: 12px; font-weight: 300; text-transform: uppercase;}
+.documents-column h4.teaser__title {font-size: 12px;
+font-weight: 300;
+text-transform: unset;
+max-height: 4.2em;}
 .view-newest-users .teaser__image {
   background: #fff!important;}
 #views-exposed-form-latest-documents-page-latest-documents #edit-field-document-type-target-id {background-image:none;}
