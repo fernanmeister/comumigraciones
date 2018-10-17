@@ -55,7 +55,8 @@ flex-grow: 1;}
 .documents-column h4.teaser__title {font-size: 12px;
 font-weight: 300;
 text-transform: unset;
-max-height: 4.2em;}
+max-height: 4.2em; color: #0074bd;}
+.documents-column .teaser__content-line { display: none;}
 .view-newest-users .teaser__image {
   background: #fff!important;}
 #views-exposed-form-latest-documents-page-latest-documents #edit-field-document-type-target-id {background-image:none;}
