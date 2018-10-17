@@ -240,7 +240,7 @@ class SocialUserLoginForm extends UserLoginForm {
    * {@inheritdoc}
    */
   protected function setGeneralErrorMessage(array &$form, FormStateInterface $form_state) {
-    $form_state->setRedirectrorByName('name_or_mail', $this->t('
+    $form_state->setErrorByName('name_or_mail', $this->t('
         There was an error :( This could happen for one of for the following reasons: <br>
         - Unrecognized username/email and password combination. <br>
         - There has been more than one failed login attempt for this account. It is temporarily blocked. <br>
