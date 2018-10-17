@@ -73,7 +73,7 @@ max-height: 4.2em; color: #0074bd;}
   z-index: 0;
   width: 100%;
 }
-.view-latest-documents .views-field-title { padding-bottom: 10px;}
+.view-latest-documents .views-field-title {padding-bottom: 10px!important;}
 .documents-column {
   float: left;
 }
