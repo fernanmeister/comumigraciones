@@ -59,3 +59,4 @@ Other commands will work as well; for example, you may install new modules using
 ### Update on your local machine
 
 You may also place your site in Git mode, clone it locally, and then run composer commands from there.  Commit and push your files back up to Pantheon as usual.
+# comumigraciones
