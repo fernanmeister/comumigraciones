@@ -70,7 +70,20 @@ strong {
 .text-primary {
   color: #29abe2;
 }
-
+#block-socialblue-views-block-latest-documents-filter-block #block-filter { background: #004e70; margin-bottom: 25px;}
+#block-socialblue-views-block-latest-documents-filter-block #block-filter label{ color:#fff;}
+#block-socialblue-pagetitleblock-content { background: #82be27; color:#fff; text-align: center;}
+#block-socialblue-exposedformupcoming-eventspage-community-events  #block-filter { background: #004e70;}
+#block-socialblue-exposedformupcoming-eventspage-community-events  #block-filter label { color: #fff;}
+#block-formularioexpuestonewest-userspage-newest-users  #block-filter { background: #004e70;}
+#block-formularioexpuestonewest-userspage-newest-users  #block-filter label { color: #fff;}
+ #block-formularioexpuestonewest-userspage-newest-users  #block-filter .complementary-title { color: #fff;}
+ 
+#block-socialblue-exposedformupcoming-eventspage-community-events  #block-filter .complementary-title { color: #fff;}
+#block-socialblue-pagetitleblock-content .section-title { 
+ 
+    padding-top: 10px;
+	padding-bottom: 10px;}
 a.text-primary:hover,
 a.text-primary:focus {
   color: #1a8dbe;

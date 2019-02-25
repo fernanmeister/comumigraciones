@@ -285,7 +285,7 @@ $config_directories = array();
  *   $settings['hash_salt'] = file_get_contents('/home/example/salt.txt');
  * @endcode
  */
-$settings['hash_salt'] = 'OvbDKBLFEp1HbH27HmIfxK3e9mwKlLZFWhFhd0EOROY66XTUGn-WY35toAH5YrUXGBuqASBatg';
+$settings['hash_salt'] = '';
 
 /**
  * Deployment identifier.
@@ -766,24 +766,4 @@ if (file_exists(__DIR__ . '/settings.pantheon.php')) {
 # if (file_exists($app_root . '/' . $site_path . '/settings.local.php')) {
 #   include $app_root . '/' . $site_path . '/settings.local.php';
 # }
-$databases['default']['default'] = array (
-  'database' => 'pantheon',
-  'username' => 'mysql',
-  'password' => 'qwe123qwe',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
 $settings['install_profile'] = 'social';
-$databases['default']['default'] = array (
-  'database' => 'pantheon',
-  'username' => 'mysql',
-  'password' => 'qwe123qwe',
-  'prefix' => '',
-  'host' => 'localhost',
-  'port' => '3306',
-  'namespace' => 'Drupal\\Core\\Database\\Driver\\mysql',
-  'driver' => 'mysql',
-);
